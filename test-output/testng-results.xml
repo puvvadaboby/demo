@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-21T16:40:25 IST" name="Default suite" finished-at="2021-05-21T16:40:45 IST" duration-ms="19919">
+    <groups>
+    </groups>
+    <test started-at="2021-05-21T16:40:25 IST" name="Default test" finished-at="2021-05-21T16:40:45 IST" duration-ms="19919">
+      <class name="framework.Landingpage">
+        <test-method is-config="true" signature="openingBrowser()[pri:0, instance:framework.Landingpage@2f8dad04]" started-at="2021-05-21T16:40:25 IST" name="openingBrowser" finished-at="2021-05-21T16:40:29 IST" duration-ms="3906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingBrowser -->
+        <test-method signature="landingPage(java.lang.String)[pri:0, instance:framework.Landingpage@2f8dad04]" started-at="2021-05-21T16:40:29 IST" name="landingPage" data-provider="getData" finished-at="2021-05-21T16:40:40 IST" duration-ms="11134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bavitha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPage -->
+        <test-method signature="landingPage(java.lang.String)[pri:0, instance:framework.Landingpage@2f8dad04]" started-at="2021-05-21T16:40:40 IST" name="landingPage" data-provider="getData" finished-at="2021-05-21T16:40:45 IST" duration-ms="4711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bindu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPage -->
+        <test-method is-config="true" signature="close()[pri:0, instance:framework.Landingpage@2f8dad04]" started-at="2021-05-21T16:40:45 IST" name="close" finished-at="2021-05-21T16:40:45 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- framework.Landingpage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

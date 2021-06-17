@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 103.933 s <<< FAILURE! - in TestSuite
+framework.udemy.udemyApp  Time elapsed: 45.479 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at framework.udemy.udemyApp(udemy.java:34)
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+<listeners>
+<listener class-name="framework.Listeners" />
+</listeners>
+  <test  name="Test">
+    <classes>
+      <class name="framework.Landingpage"/>
+    </classes>
+  </test>     
+  <test name ="udemy landing">
+    <classes>
+      <class name="framework.udemy"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
