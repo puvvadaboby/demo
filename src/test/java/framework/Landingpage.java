@@ -18,7 +18,7 @@ public class Landingpage extends Base {
 	@Test(dataProvider="getData")
 	public void landingPage(String email) 
 	{
-	
+	System.out.println("we are on landing page");
 	
 	driver.get(prop.getProperty("url1"));
 	Homepage hp=new Homepage(driver);
